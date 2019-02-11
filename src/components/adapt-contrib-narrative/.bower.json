@@ -1,0 +1,26 @@
+{
+  "name": "adapt-contrib-narrative",
+  "version": "4.0.0",
+  "framework": ">=3.3",
+  "homepage": "https://github.com/adaptlearning/adapt-contrib-narrative",
+  "issues": "https://github.com/adaptlearning/adapt_framework/issues/new",
+  "displayName": "Narrative",
+  "component": "narrative",
+  "description": "A component that displays an image gallery with accompanying text",
+  "main": "/js/adapt-contrib-narrative.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3",
+  "_release": "4.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v4.0.0",
+    "commit": "87ffd601cdf71b62b03f72cb765159a134d9a8b4"
+  },
+  "_source": "git://github.com/adaptlearning/adapt-contrib-narrative.git",
+  "_target": "4.0.0",
+  "_originalSource": "adapt-contrib-narrative",
+  "_direct": true
+}
