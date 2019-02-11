@@ -377,52 +377,52 @@ this["Handlebars"]["templates"]["notifyPush"] = Handlebars.template({"compiler":
 this["Handlebars"]["templates"]["page"] = Handlebars.template({"1":function(container,depth0,helpers,partials,data) {
     var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {});
 
-  return "					<div class=\"page-title\">\n"
+  return "					<div class=\"page-title\">\r\n"
     + ((stack1 = helpers.unless.call(alias1,(depth0 != null ? depth0._disableAccessibilityState : depth0),{"name":"unless","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "						<div class=\"page-title-inner\" "
     + ((stack1 = helpers.unless.call(alias1,(depth0 != null ? depth0._disableAccessibilityState : depth0),{"name":"unless","hash":{},"fn":container.program(4, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + ">\n							"
+    + ">\r\n							"
     + ((stack1 = (helpers.compile || (depth0 && depth0.compile) || helpers.helperMissing).call(alias1,(depth0 != null ? depth0.displayTitle : depth0),{"name":"compile","hash":{},"data":data})) != null ? stack1 : "")
-    + "\n						</div>\n					</div>\n";
+    + "\r\n						</div>\r\n					</div>\r\n";
 },"2":function(container,depth0,helpers,partials,data) {
-    return "							<div class=\"js-heading\"></div>\n";
+    return "							<div class=\"js-heading\"></div>\r\n";
 },"4":function(container,depth0,helpers,partials,data) {
     return "aria-hidden=\"true\"";
 },"6":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "					<div class=\"page-body\">\n						<div class=\"page-body-inner\">\n"
+  return "					<div class=\"page-body\">\r\n						<div class=\"page-body-inner\">\r\n"
     + ((stack1 = helpers["if"].call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? depth0.pageBody : depth0),{"name":"if","hash":{},"fn":container.program(7, data, 0),"inverse":container.program(9, data, 0),"data":data})) != null ? stack1 : "")
-    + "						</div>\n					</div>\n";
+    + "						</div>\r\n					</div>\r\n";
 },"7":function(container,depth0,helpers,partials,data) {
     var stack1;
 
   return "								"
     + ((stack1 = (helpers.compile || (depth0 && depth0.compile) || helpers.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? depth0.pageBody : depth0),{"name":"compile","hash":{},"data":data})) != null ? stack1 : "")
-    + "\n";
+    + "\r\n";
 },"9":function(container,depth0,helpers,partials,data) {
     var stack1;
 
   return "								"
     + ((stack1 = (helpers.compile || (depth0 && depth0.compile) || helpers.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? depth0.body : depth0),{"name":"compile","hash":{},"data":data})) != null ? stack1 : "")
-    + "\n";
+    + "\r\n";
 },"11":function(container,depth0,helpers,partials,data) {
     var stack1;
 
-  return "					<div class=\"page-instruction\">\n						<div class=\"page-instruction-inner\">\n							"
+  return "					<div class=\"page-instruction\">\r\n						<div class=\"page-instruction-inner\">\r\n							"
     + ((stack1 = (helpers.compile || (depth0 && depth0.compile) || helpers.helperMissing).call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? depth0.instruction : depth0),{"name":"compile","hash":{},"data":data})) != null ? stack1 : "")
-    + "\n						</div>\n					</div>\n";
+    + "\r\n						</div>\r\n					</div>\r\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing;
 
   return container.escapeExpression(((helper = (helper = helpers.import_globals || (depth0 != null ? depth0.import_globals : depth0)) != null ? helper : alias2),(typeof helper === "function" ? helper.call(alias1,{"name":"import_globals","hash":{},"data":data}) : helper)))
-    + "\n<div class=\"page-inner article-container\">\n	<div class=\"page-header\">\n		<div class=\"page-header-inner clearfix\">\n\n			<div class=\"page-header-content\">\n				<div class=\"page-header-content-inner\">\n"
+    + "\r\n<div class=\"page-inner article-container\">\r\n	<div class=\"page-header\">\r\n		<div class=\"page-header-inner clearfix\">\r\n\r\n			<div class=\"page-header-content\">\r\n				<div class=\"page-header-content-inner\">\r\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.displayTitle : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n"
+    + "\r\n"
     + ((stack1 = (helpers.any || (depth0 && depth0.any) || alias2).call(alias1,(depth0 != null ? depth0.body : depth0),(depth0 != null ? depth0.pageBody : depth0),{"name":"any","hash":{},"fn":container.program(6, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n"
+    + "\r\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.instruction : depth0),{"name":"if","hash":{},"fn":container.program(11, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
-    + "\n					<div class=\"start-button\">\n						<button>Start here</button>\n					</div>\n				</div>\n				 <div class=\"page-header-content-graphic\">\n						<img src=\"course/en/images/co_bg.svg\" alt=\"\">\n					</div>\n			</div>\n\n		</div>\n	</div>\n\n</div>\n";
+    + "\r\n					<div class=\"start-button\">\r\n						<button>Start here</button>\r\n					</div>\r\n				</div>\r\n				 <div class=\"page-header-content-graphic\">\r\n						<img src=\"course/en/images/co_bg.svg\" alt=\"\">\r\n					</div>\r\n			</div>\r\n\r\n		</div>\r\n	</div>\r\n\r\n</div>\r\n";
 },"useData":true});
 
 this["Handlebars"]["templates"]["shadow"] = Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
