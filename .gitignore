@@ -5,6 +5,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+#build
+build/
+
 # Runtime data
 pids
 *.pid
@@ -75,6 +78,4 @@ typings/
 # FuseBox cache
 .fusebox/
 
-#build
 
-build/
