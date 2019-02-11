@@ -5,10 +5,9 @@
     background-color: @background-color;
 
     .page-header {
-        background-image: url('course/en/images/co_bg.svg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 96vh;
+        background-color: white;
+        height: 95vh;
+        max-width: 100vw;
     }
 
     .page-header-inner {
@@ -25,24 +24,37 @@
 
     .page-header-content {
         max-width: @device-width-large;
-        margin: auto;
+        margin: 0;
+        padding: 0;
         color: @foreground-color-inverted;
+        display: flex;
+        flex-direction: row;
     }
 
     .page-header-content-inner {
-        text-align: center;
+        text-align: left;
     }
 
     .page-title {
         margin-bottom: @page-title-margin-bottom;
+        color: @uipath-dark-blue;
     }
 
     .page-body {
         margin-bottom: @page-body-margin-bottom;
+        color: @uipath-dark-blue;
     }
 
     .page-instruction {
         margin-bottom: @page-instruction-margin-bottom;
         .instruction-text;
+        color: @uipath-dark-blue;
     }
+}
+
+.page-header-content-graphic{
+    display: block;
+    height: 700px;
+    width: 700px;
+
 }

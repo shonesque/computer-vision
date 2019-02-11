@@ -5173,10 +5173,9 @@ select {
   background-color: #D7E0E2;
 }
 .page .page-header {
-  background-image: url('course/en/images/co_bg.svg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 96vh;
+  background-color: white;
+  height: 95vh;
+  max-width: 100vw;
 }
 .page .page-header-inner {
   padding: 100px 0 100px;
@@ -5193,23 +5192,34 @@ select {
 }
 .page .page-header-content {
   max-width: 900px;
-  margin: auto;
+  margin: 0;
+  padding: 0;
   color: #fff;
+  display: flex;
+  flex-direction: row;
 }
 .page .page-header-content-inner {
-  text-align: center;
+  text-align: left;
 }
 .page .page-title {
   margin-bottom: 20px;
+  color: #002855;
 }
 .page .page-body {
   margin-bottom: 30px;
+  color: #002855;
 }
 .page .page-instruction {
   margin-bottom: 14px;
   font-size: 14px;
   font-weight: 700;
   line-height: 140%;
+  color: #002855;
+}
+.page-header-content-graphic {
+  display: block;
+  height: 700px;
+  width: 700px;
 }
 .shadow {
   position: fixed;
