@@ -4086,7 +4086,7 @@ html.trickle #wrapper {
   background-color: #D7E0E2;
 }
 .article .article-inner {
-  padding: 60px 0 60px;
+  padding: 0;
 }
 @media all and (max-width: 920px) {
   .article .article-inner {
@@ -4134,7 +4134,10 @@ html.trickle #wrapper {
   line-height: 140%;
 }
 .block {
-  background-color: #D7E0E2;
+  background-color: #0085ca;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23002854' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23ff6900' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23333543' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23cc6f28' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23664232' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23997451' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23994f22' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23667a79' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23cc5c11' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23337fa2' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23ff6900' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%230085ca' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
 }
 .block .block-inner {
   max-width: 900px;
@@ -5173,9 +5176,15 @@ select {
   background-color: #D7E0E2;
 }
 .page .page-header {
-  background-color: white;
+  background-image: url('course/en/images/landing.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 95vh;
-  max-width: 100vw;
+}
+@media all and (max-width: 920px) {
+  .page .page-header {
+    padding: 1em;
+  }
 }
 .page .page-header-inner {
   padding: 100px 0 100px;
@@ -5192,22 +5201,40 @@ select {
 }
 .page .page-header-content {
   max-width: 900px;
-  margin: 0;
-  padding: 0;
   color: #fff;
-  display: flex;
-  flex-direction: row;
 }
 .page .page-header-content-inner {
   text-align: left;
+  margin-left: 4em;
+}
+@media all and (max-width: 520px) {
+  .page .page-header-content-inner {
+    text-align: center;
+    margin-left: 0;
+  }
 }
 .page .page-title {
   margin-bottom: 20px;
   color: #002855;
 }
+@media all and (min-width: 920px) {
+  .page .page-title {
+    padding: 0;
+    font-size: 6em;
+    font-weight: 700;
+  }
+}
 .page .page-body {
   margin-bottom: 30px;
   color: #002855;
+}
+@media all and (min-width: 920px) {
+  .page .page-body {
+    padding: 0;
+    font-size: 3em;
+    line-height: 1.3;
+    font-weight: 400;
+  }
 }
 .page .page-instruction {
   margin-bottom: 14px;
@@ -5215,11 +5242,17 @@ select {
   font-weight: 700;
   line-height: 140%;
   color: #002855;
+  font-weight: 400;
 }
-.page-header-content-graphic {
-  display: block;
-  height: 700px;
-  width: 700px;
+@media all and (min-width: 900px) {
+  .page .page-instruction {
+    padding: 0;
+    font-size: 2em;
+    font-weight: 400;
+  }
+}
+.page .start-button {
+  margin-top: 2em;
 }
 .shadow {
   position: fixed;
