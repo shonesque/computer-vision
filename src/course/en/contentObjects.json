@@ -4,11 +4,11 @@
 		"_parentId": "course",
 		"_type": "page",
 		"_classes": "",
-		"title": "AI ComputerVision",
-		"displayTitle": "AI.ComputerVision ",
-		"body": "Find out what presentation components are available within the core bundle and how you might consider using them within your courses. ",
+		"title": "AI Computer Vision",
+		"displayTitle": "AI Computer Vision",
+		"body": "Real-time identification of each element in a virtual environment based on how it looks.",
 		"pageBody": "",
-		"instruction": "Scroll down to see what presentation components are available as part of the v3 core bundle.",
+		"instruction": "Scroll down to see what is it and why do you need this feature.",
 		"_graphic": {
 			"src": "course/en/images/menu_thumb.jpg",
 			"alt": "Placeholder graphic."

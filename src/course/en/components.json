@@ -1,52 +1,5 @@
 [
-	{
-		"_id": "c-05",
-		"_parentId": "b-05",
-		"_type": "component",
-		"_component": "text",
-		"_classes": "",
-		"_layout": "left",
-		"title": "Introduction",
-		"displayTitle": "",
-		"body": "Adapt allows you to combine text and graphic components on the scrolling page to create rich and varied learning experiences. In addition, a wide range of interactive components are also available to help encourage deeper engagement with the material.<br><br>These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.<br><br>In addition, if your course is being launched from an <abbr title='Learning Management System'>LMS</abbr> or <abbr title='Learning Record Store'>LRS</abbr>, you can personalise the course content by having the learner's name dynamically displayed in the body, instruction or feedback text.",
-		"instruction": "{{_globals._learnerInfo.firstname}}, scroll down to see what presentation components are available as part of the core bundle.",
-		"_pageLevelProgress": {
-			"_isEnabled": true
-		}
-	},
-	{
-		"_id": "c-10",
-		"_parentId": "b-05",
-		"_type": "component",
-		"_component": "graphic",
-		"_classes": "",
-		"_layout": "right",
-		"title": "c-10",
-		"displayTitle": "",
-		"body": "",
-		"instruction": "",
-		"_graphic": {
-			"large": "course/en/images/single_width.jpg",
-			"small": "course/en/images/single_width.jpg",
-			"alt": "Placeholder graphic.",
-			"attribution": ""
-		}
-	},
-	{
-		"_id": "c-15",
-		"_parentId": "b-10",
-		"_type": "component",
-		"_component": "text",
-		"_classes": "",
-		"_layout": "left",
-		"title": "Text",
-		"displayTitle": "Text",
-		"body": "The simple text component can often be the best choice for imparting information, particularly when used in conjunction with complementary graphics. In this example we’ve used the blank component to the right to create a window through to the block background.<br><br>Remember, content doesn’t always warrant an interaction so less can often be really be more. Instead, look to intersperse more interactive components with text and graphics where they add the maximum value.<br><br>Component can either be single or spanned.",
-		"instruction": "",
-		"_pageLevelProgress": {
-			"_isEnabled": true
-		}
-	},
+	
 	{
 		"_id": "c-20",
 		"_parentId": "b-10",
@@ -57,25 +10,37 @@
 		"title": "c-20"
 	},
 	{
-		"_id": "c-25",
-		"_parentId": "b-15",
+    "_id":"c-99",
+    "_parentId":"b-10",
+    "_type":"component",
+    "_component":"text",
+    "_classes":"",
+    "_layout":"full",
+    "title":"What is it?",
+    "displayTitle":"What is it?",
+    "body":"Computer Vision is a feature that allows for the real-time identification of each element in a virtual environment based on how it looks.<br><br>The Computer Vision feature also returns all the controls along with their attributes for every detected element, as well as a list of control probabilities in each case, making automation projects a lot more efficient.",
+    "instruction":""
+	},
+	{
+		"_id": "c-97",
+		"_parentId": "b-20",
 		"_type": "component",
-		"_component": "graphic",
+		"_component": "blank",
 		"_classes": "",
-		"_layout": "full",
-		"title": "Graphic",
-		"displayTitle": "Graphic",
-		"body": "This is the graphic component body. You can introduce your graphic or you may just want to let the graphics do the talking.<br><br>Component can either be single or spanned.",
-		"instruction": "",
-		"_graphic": {
-			"large": "course/en/images/full_width.jpg",
-			"small": "course/en/images/full_width.jpg",
-			"alt": "Placeholder graphic.",
-			"attribution": ""
-		},
-		"_pageLevelProgress": {
-			"_isEnabled": true
-		}
+		"_layout": "right",
+		"title": "c-20"
+	},
+	{
+    "_id":"c-98",
+    "_parentId":"b-20",
+    "_type":"component",
+    "_component":"text",
+    "_classes":"",
+    "_layout":"full",
+    "title":"Why do you need it",
+    "displayTitle":"Why do you need it",
+    "body":"Current image-based automation is done manually without any recorder support, which makes the process a lot slower and much more labor-intensive.<br><br>The pseudo pixel-matching algorithm is prone to errors due to the likelihood of appearance changes in the target elements. That often happens when the source image includes a bit more background than it should, or the size or appearance of the element changes.<br><br>The Computer Vision based element detection has a relative higher recognition rate using a minimal set of attributes. This makes it more stable than previous image-based automation methods, because it is based on the information available in VDIs, including the type of control, its label, and additional relative anchors when needed.",
+    "instruction":""
 	},
 	{
 		"_id": "c-30",
@@ -87,105 +52,38 @@
 		"_comment": "setCompletionOn = inview | allItems",
 		"_setCompletionOn": "allItems",
 		"_hasNavigationInTextArea": false,
-		"title": "Narrative",
-		"displayTitle": "Narrative",
-		"body": "The narrative component lets you scroll through a series of images each with some accompanying text.<br><br>This component is always spanned.",
-		"instruction": "Select the next and back arrows to find out more.",
+		"title": "What is it?",
+		"displayTitle": "What is it?",
+		"body": "Computer Vision is a feature that allows for the real-time identification of each element in a virtual environment based on how it looks.<br><br>The Computer Vision feature also returns all the controls along with their attributes for every detected element, as well as a list of control probabilities in each case, making automation projects a lot more efficient.",
+		"instruction": "Select the next and back arrows to find out why do you need it",
 		"mobileInstruction": "Select the next and back arrows followed by the plus icon to find out more.",
 		"_items": [
 			{
-				"title": "Narrative item 1",
-				"body": "Narratives are particularly good for showing dialogue between two or more characters, with each step of the conversation being accompanied by an image. This photo story approach can be used to provide context for the learning to follow, to illustrate real-world application of the learning or to show the impact on people when the learning hasn’t been applied correctly.",
+				"title": "",
+				"body": "Current image-based automation is done manually without any recorder support, which makes the process a lot slower and much more labor-intensive.",
 				"_graphic": {
 					"src": "course/en/images/single_width_small.jpg",
 					"alt": "Placeholder graphic."
 				},
-				"strapline": "Narrative item 1"
+				"strapline": ""
 			},
 			{
-				"title": "Narrative item 2",
-				"body": "Narratives can also be used to present case studies, where the different displays are used to set the scene, show the key events and then the outcome.",
+				"title": "",
+				"body": "The pseudo pixel-matching algorithm is prone to errors due to the likelihood of appearance changes in the target elements. That often happens when the source image includes a bit more background than it should, or the size or appearance of the element changes.",
 				"_graphic": {
 					"src": "course/en/images/single_width_small.jpg",
 					"alt": "Placeholder graphic."
 				},
-				"strapline": "Narrative item 2"
+				"strapline": ""
 			},
 			{
-				"title": "Narrative item 3",
-				"body": "The narrative can also be used when you want to illustrate the constituent steps that make up a larger process.",
+				"title": "",
+				"body": "The Computer Vision based element detection has a relative higher recognition rate using a minimal set of attributes. This makes it more stable than previous image-based automation methods, because it is based on the information available in VDIs, including the type of control, its label, and additional relative anchors when needed.",
 				"_graphic": {
 					"src": "course/en/images/single_width_small.jpg",
 					"alt": "Placeholder graphic."
 				},
-				"strapline": "Narrative item 3"
-			}
-		],
-		"_pageLevelProgress": {
-			"_isEnabled": true,
-			"_isCompletionIndicatorEnabled": true
-		}
-	},
-	{
-		"_id": "c-35",
-		"_parentId": "b-25",
-		"_type": "component",
-		"_component": "hotgraphic",
-		"_classes": "",
-		"_layout": "full",
-		"_comment": "setCompletionOn = inview | allItems",
-		"_setCompletionOn": "allItems",
-		"_canCycleThroughPagination": false,
-		"_hidePagination": false,
-		"_useGraphicsAsPins": false,
-		"title": "Hot Graphic",
-		"displayTitle": "Hot Graphic",
-		"body": "You can add interactivity to an image by using the <strong>hot graphic</strong>. This component allows you to position icons over an image. When an icon is selected, content associated with its corresponding location is displayed in a window over the image. This component will fall back to a <strong>narrative</strong> when viewed on mobile.<br><br>This component is always spanned.",
-		"instruction": "Select the icons to find out more.",
-		"mobileInstruction": "",
-		"_graphic": {
-			"src": "course/en/images/full_width.jpg",
-			"alt": "Placeholder graphic."
-		},
-		"_items": [
-			{
-				"title": "Hot graphic item 1",
-				"body": "This is display text 1 which we have associated with the tablet image on the desktop.",
-				"_graphic": {
-					"src": "course/en/images/single_width_small.jpg",
-					"alt": "Placeholder graphic.",
-					"_classes": ""
-				},
-				"strapline": "Hot graphic item 1",
-				"_classes": "",
-				"_top": 42,
-				"_left": 8.5
-			},
-			{
-				"title": "Hot graphic item 2",
-				"body": "This is display text 2 which we have linked to the smartphone image.",
-				"_graphic": {
-					"src": "course/en/images/single_width_small.jpg",
-					"alt": "Placeholder graphic.",
-					"_classes": ""
-				},
-				"strapline": "Hot graphic item 2",
-				"_classes": "",
-				"_top": 62,
-				"_left": 26.5
-			},
-			{
-				"title": "Hot graphic item 3",
-				"body": "This is display text 3 which we’ve located over the laptop so you would expect the content to be about PCs.",
-				"_graphic": {
-					"src": "course/en/images/single_width_small.jpg",
-					"alt": "Placeholder graphic.",
-					"_classes": ""
-				},
-				"strapline": "Hot graphic item 3",
-				"_classes": "",
-				"_top": 62,
-				"_left": 49
+				"strapline": ""
 			}
 		],
 		"_pageLevelProgress": {
@@ -204,9 +102,9 @@
 		"_setCompletionOn": "play",
 		"_useClosedCaptions": true,
 		"_allowFullScreen": true,
-		"title": "Media",
-		"displayTitle": "Media",
-		"body": "Sometimes we need to make use of rich media to really drive home a point, bring a complex subject to life or just let audio to literally do the talking. This is when the media component comes to the fore.<br><br>Component can be either single or spanned.",
+		"title": "Demo",
+		"displayTitle": "Video Demo",
+		"body": "",
 		"instruction": "Select the play button to start the video.",
 		"_media": {
 			"mp4": "course/en/video/c-40.mp4",
@@ -227,48 +125,6 @@
 			"transcriptLinkButton": "Transcript",
 			"transcriptLink": ""
 		},
-		"_pageLevelProgress": {
-			"_isEnabled": true,
-			"_isCompletionIndicatorEnabled": true
-		}
-	},
-	{
-		"_id": "c-45",
-		"_parentId": "b-35",
-		"_type": "component",
-		"_component": "accordion",
-		"_classes": "",
-		"_layout": "full",
-		"title": "Accordion",
-		"displayTitle": "Accordion",
-		"body": "You can use the <strong>accordion</strong> component to present learners with a series of headings which, once selected, expand to reveal associated text. Select each of the headings below to find out more about how accordions can be used.<br><br>These components can be either single or spanned. If spanned they can also contain a graphic.",
-		"instruction": "Select the headings to find out more.",
-		"_items": [
-			{
-				"title": "Lists",
-				"body": "This is display text 1 and we’re using it to discuss lists.<br><br>If you need to present a list that can stand alone as a piece of content, but which can also be explored in more detail, accordions are a great choice.",
-				"_graphic": {
-					"src": "course/en/images/accordion_full_width.jpg",
-					"alt": "Placeholder graphic."
-				}
-			},
-			{
-				"title": "Steps in a process",
-				"body": "This is display text 2 and now we’re discussing how accordions can be great at presenting a process.<br><br>The headings can be used to present the high-level stages in the process, which once selected, provide a more extensive explanation of what happens at that specific point.",
-				"_graphic": {
-					"src": "course/en/images/accordion_full_width.jpg",
-					"alt": "Placeholder graphic."
-				}
-			},
-			{
-				"title": "Recaps",
-				"body": "This is display text 3 and we’re now talking about using accordions to provide the learner with a summary.<br><br>Each accordion item corresponds to a key piece of learning presented on the page. When this item is selected a short summary of the learning point is provided.",
-				"_graphic": {
-					"src": "course/en/images/accordion_full_width.jpg",
-					"alt": "Placeholder graphic."
-				}
-			}
-		],
 		"_pageLevelProgress": {
 			"_isEnabled": true,
 			"_isCompletionIndicatorEnabled": true
